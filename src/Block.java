@@ -26,15 +26,15 @@ public class Block {
             }
             else if(block == BlockShape.MUSTAFA){
                 this.blockShape[0][1].setVisible(true);
+                this.blockShape[1][0].setVisible(true);
                 this.blockShape[1][1].setVisible(true);
                 this.blockShape[1][2].setVisible(true);
-                this.blockShape[1][3].setVisible(true);
             }
             else if(block == BlockShape.LE){
                 this.blockShape[0][0].setVisible(true);
+                this.blockShape[1][0].setVisible(true);
                 this.blockShape[1][1].setVisible(true);
                 this.blockShape[1][2].setVisible(true);
-                this.blockShape[1][3].setVisible(true);
             }
             else if(block == BlockShape.THREE){
                 this.blockShape[0][0].setVisible(true);
